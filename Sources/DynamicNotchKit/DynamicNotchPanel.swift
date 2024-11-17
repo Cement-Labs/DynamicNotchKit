@@ -12,7 +12,7 @@ class DynamicNotchPanel: NSPanel {
         super.init(contentRect: contentRect, styleMask: style, backing: backingStoreType, defer: flag)
         self.hasShadow = false
         self.backgroundColor = .clear
-        self.level = .screenSaver
+        self.level = .statusBar + 8
         self.collectionBehavior = .canJoinAllSpaces
     }
 
